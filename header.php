@@ -10,17 +10,17 @@
     <link rel="stylesheet" href="<?php echo BASEURL; ?>css/bootstrap.min.css">
     <style>
         body {
-            padding-top: 50px;
+            padding-top: 10px;
             padding-bottom: 20px;
         }
     </style>
     <link rel="stylesheet" href="<?php echo BASEURL; ?>css/style.css">
-	<link rel="stylesheet" href="<?php echo BASEURL; ?>fontawesome-free-5.8.2-web/css/all.css">
+	<link rel="stylesheet" href="<?php echo BASEURL; ?>fonts/fontawesome-free-5.11.2-web/css/all.css">
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">-->
 </head>
 <body>
 
-    <nav class="" role="navigation">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -38,16 +38,16 @@
                     Clientes <span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a href="<?php echo BASEURL; ?>customers">Gerenciar Clientes</a></li>
-                    <li><a href="<?php echo BASEURL; ?>customers/add.php">Novo Cliente</a></li>
+                    <li><a href="<?php echo BASEURL; ?>clientes">Gerenciar Clientes</a></li>
+                    <li><a href="<?php echo BASEURL; ?>clientes/add.php">Novo Cliente</a></li>
                 </ul>
             </li>
           </ul>
         </div><!--/.navbar-collapse -->
 		<form class="form-inline" action="/action_page.php">
-    <input class="form-control mr-sm-2" type="text" placeholder="Search">
-    <button class="btn btn-success" type="submit">Search</button>
-  </form>
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+         </form>
       </div>
     </nav>
 
